@@ -1,0 +1,45 @@
+.main{
+  width: 200px;
+  height: 100px;
+  background-color: red;
+  margin-bottom: 10px;
+  .radius(t_r,50%)
+}
+.main1{
+  width: 200px;
+  height: 100px;
+  background-color: blue;
+  margin-bottom: 10px;
+  .radius(b_l,50%)
+}
+.main2{
+  width: 200px;
+  height: 100px;
+  background-color: purple;
+  margin-bottom: 10px;
+  .radius(b_r,100px)
+}
+.main3{
+  width: 200px;
+  height: 100px;
+  background-color: orange;
+  //.radius(t_l,100px)
+  .radius()
+}
+//不会被编译到css
+/*会编译到css中*/
+.radius(t_l,@w){
+  border-top-left-radius:@w;
+}
+.radius(t_r,@w){
+  border-bottom-right-radius:@w;
+}
+.radius(b_l,@w){
+  border-bottom-left-radius:@w;
+}
+.radius(b_r,@w){
+  border-bottom-right-radius:@w;
+}
+.radius(){
+  border-radius: 50%;
+}

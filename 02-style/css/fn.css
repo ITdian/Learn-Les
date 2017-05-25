@@ -1,0 +1,8 @@
+.main {
+  width: 400px;
+  height: 200px;
+  background: red;
+}
+.main:hover {
+  background-color: #0000ff;
+}

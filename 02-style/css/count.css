@@ -1,0 +1,25 @@
+.test {
+  width: 100px;
+  height: 10px;
+  background: #ff0000;
+}
+.test1 {
+  width: 0px;
+  height: 10px 100;
+  background: blue;
+}
+.test2 {
+  width: 200px;
+  height: 20px;
+  background: orange;
+}
+.test3 {
+  width: 300px;
+  height: 30px;
+  background: green;
+}
+.test4 {
+  width: 400px;
+  height: 40px;
+  background: darkblue;
+}

@@ -1,0 +1,23 @@
+//居中
+.vhConter(){
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bRadius(@radius){
+  border-radius: @radius;
+}
+.test{
+  width: 200px;
+  height: 300px;
+  background: red;
+  .vhConter();
+  .bRadius(100px)
+}
+.test1{
+  width: 400px;
+  height: 500px;
+  background: blue;
+  .vhConter();
+}
